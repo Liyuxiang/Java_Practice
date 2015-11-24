@@ -1,0 +1,15 @@
+
+public class Demo {
+ static String s="I love Java.";
+	public static void main(String[] args){
+		for(int x = 1; x <= 9; x++){
+			for(int y = 1; y <= x; y++){
+				System.out.print(y + "*" + x + "=" + x*y + "\t");
+			}
+			System.out.println();
+		}
+		System.out.println("Holle World!");
+		System.out.println("我们开始吧！");
+		System.out.println(s.length());
+}
+}//怎么回事

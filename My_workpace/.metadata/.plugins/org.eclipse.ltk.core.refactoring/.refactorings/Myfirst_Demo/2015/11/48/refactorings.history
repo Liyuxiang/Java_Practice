@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;_20CheckLogin&apos; to &apos;_020CheckLogin&apos;&#x0D;&#x0A;- Original project: &apos;Myfirst_Demo&apos;&#x0D;&#x0A;- Original element: &apos;_20CheckLogin&apos;&#x0D;&#x0A;- Renamed element: &apos;_020CheckLogin&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;_20CheckLogin&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{_20CheckLogin.java[_20CheckLogin" matchStrategy="1" name="_020CheckLogin" qualified="false" references="true" similarDeclarations="false" stamp="1448351522029" textual="false" version="1.0"/>
+</session>

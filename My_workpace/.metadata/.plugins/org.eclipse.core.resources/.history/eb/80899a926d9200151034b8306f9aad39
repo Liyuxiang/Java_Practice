@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class ParityCheck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ss = new Scanner(System.in);
+		System.out.println("请输入一个整数：");
+		int Integer = ss.nextInt();
+		String Out = Integer%2==0? "这个数是偶数":"这个数是奇数";
+		System.out.println(Out);
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Test_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sr = new Scanner(System.in);
+		System.out.println("请输入你的名字");
+		String ss = sr.next();
+		System.out.println("今天开始吧！");
+	}
+
+}

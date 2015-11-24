@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Test_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sr = new Scanner(System.in);
+		System.out.println("请输入你的编号：");
+		String ss = sr.next();
+		System.out.println("你的名字是"+ss);
+		System.out.println("我们一起来学习吧！");
+		System.out.println("请输入你的名字：");
+		String name = sr.next();
+		System.out.println("请输入你的性别：");
+		String sex = sr.next();
+		System.out.println("请输入你的年龄：");
+		int age = sr.nextInt();
+		System.out.println("姓名\t   性别\t   年龄\n"+name+"\t"+sex+"\t"+age);
+	}
+}

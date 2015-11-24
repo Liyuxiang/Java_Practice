@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class VariableExchange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ss = new Scanner(System.in); 
+		long A = ss.nextLong();
+		long B = ss.nextLong();
+		System.out.println("A = "+A+"B = "+B);
+		A=A^B;
+		B=B^A;
+		A=A^B;
+		System.out.println("×ª»»ºóµÃ£ºA = "+A+"B = "+B);
+	}
+
+}
